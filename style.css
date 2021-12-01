@@ -26,8 +26,8 @@ a {
     position: relative;
     width: 1366px;
     height: 768px;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     background-image: url("./img/Fon.svg");
     display: flex;
 }
@@ -50,20 +50,21 @@ a {
 }
 
 .circle_left {
-    left: 15px;
+
     background-color: #316099;
 }
 
 .circle_right {
+    left: 15px;
     background-color: #FFFFFF;
 }
 
 .contacts {
     position: absolute;
     left: 1076.16px;
-    right: 0px;
-    top: 0%;
-    bottom: 0%;
+    right: 0;
+    top: 0;
+
 }
 
 .text-info {
@@ -110,7 +111,7 @@ a {
     background: #5A98D0;
     box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
     border-radius: 10px;
-    font-family: Roboto;
+    font-family: MainFont sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -127,4 +128,28 @@ a {
     height: 481.39px;
     left: 699px;
     top: 193px;
+}
+
+.block_two{
+    position: absolute;
+    width: 1140px;
+    height: 585.13px;
+    left: 113px;
+    top: 832px;
+    display: flex;
+
+}
+
+.name-navigation{
+    width: 1137px;
+    height: 41px;
+    font-family: MainFont sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
 }
