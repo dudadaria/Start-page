@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'MainFont';
+    src: url('./fonts/Roboto.ttf') format('opentype');
+}
+
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    height: 3373px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.block_first {
+    position: relative;
+    width: 1366px;
+    height: 768px;
+    left: 0px;
+    top: 0px;
+    background-image: url("./img/Fon.svg");
+    display: flex;
+}
+
+.menu {
+    position: absolute;
+    width: 1140px;
+    height: 48px;
+    left: 113px;
+    top: 34px;
+}
+
+.circle_left,
+.circle_right {
+    position: absolute;
+    width: 30px;
+    height: 32px;
+    border: 2px solid #316099;
+    border-radius: 50%;
+}
+
+.circle_left {
+    left: 15px;
+    background-color: #316099;
+}
+
+.circle_right {
+    background-color: #FFFFFF;
+}
+
+.contacts {
+    position: absolute;
+    left: 1076.16px;
+    right: 0px;
+    top: 0%;
+    bottom: 0%;
+}
+
+.text-info {
+    position: absolute;
+}
+
+.big_text {
+    position: absolute;
+    width: 504px;
+    height: 148px;
+    left: 113px;
+    top: 189px;
+    font-family: MainFont sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+
+.small_text {
+    position: absolute;
+    width: 425px;
+    height: 82px;
+    left: 114px;
+    top: 369px;
+    font-family: MainFont sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+}
+
+.button {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    left: 114px;
+    top: 522px;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+}
+
+.illustration {
+    position: absolute;
+    width: 553.68px;
+    height: 481.39px;
+    left: 699px;
+    top: 193px;
+}
