@@ -5,7 +5,7 @@
 
 
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
 }
 
@@ -16,28 +16,32 @@ a {
 .container {
     width: 1366px;
     height: 3373px;
-    margin: 0 auto;
     background: #FFFFFF;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
 }
 
 .block_first {
-    position: relative;
-    width: 1366px;
+    width: 100%;
     height: 768px;
-    left: 0;
-    top: 0;
     background-image: url("./img/Fon.svg");
     display: flex;
+    flex-direction: column;
+
 }
 
-.menu {
-    position: absolute;
-    width: 1140px;
+.header {
     height: 48px;
-    left: 113px;
-    top: 34px;
+    padding: 34px 113px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.switcher {
+    width: 45px;
+    height: 38px;
+    position: relative;
 }
 
 .circle_left,
@@ -50,7 +54,6 @@ a {
 }
 
 .circle_left {
-
     background-color: #316099;
 }
 
@@ -59,20 +62,13 @@ a {
     background-color: #FFFFFF;
 }
 
-.contacts {
-    position: absolute;
-    left: 1076.16px;
-    right: 0;
-    top: 0;
-
-}
-
-.text-info {
-    position: absolute;
+.box_block_first {
+    display: flex;
+    justify-content: space-between;
+    padding: 73px 113px;
 }
 
 .big_text {
-    position: absolute;
     width: 504px;
     height: 148px;
     left: 113px;
@@ -87,11 +83,9 @@ a {
 }
 
 .small_text {
-    position: absolute;
+    margin-top: 32px;
     width: 425px;
     height: 82px;
-    left: 114px;
-    top: 369px;
     font-family: MainFont sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -103,11 +97,9 @@ a {
 }
 
 .button {
-    position: absolute;
+    margin-top: 71px;
     width: 220px;
     height: 56px;
-    left: 114px;
-    top: 522px;
     background: #5A98D0;
     box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
     border-radius: 10px;
@@ -118,20 +110,19 @@ a {
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.04em;
-
     color: #FFFFFF;
 }
 
 .illustration {
-    position: absolute;
+
     width: 553.68px;
     height: 481.39px;
     left: 699px;
     top: 193px;
 }
 
-.block_two{
-    position: absolute;
+/*.block_two{
+
     width: 1140px;
     height: 585.13px;
     left: 113px;
