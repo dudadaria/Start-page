@@ -5,7 +5,7 @@
 
 
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
 }
 
@@ -16,28 +16,31 @@ a {
 .container {
     width: 1366px;
     height: 3373px;
-    margin: 0 auto;
     background: #FFFFFF;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 
 .block_first {
-    position: relative;
-    width: 1366px;
+    width: 100%;
     height: 768px;
-    left: 0;
-    top: 0;
     background-image: url("./img/Fon.svg");
     display: flex;
+    flex-direction: column;
 }
 
-.menu {
-    position: absolute;
-    width: 1140px;
+.header {
     height: 48px;
-    left: 113px;
-    top: 34px;
+    padding: 34px 113px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.switcher {
+    width: 45px;
+    height: 38px;
+    position: relative;
 }
 
 .circle_left,
@@ -50,7 +53,6 @@ a {
 }
 
 .circle_left {
-
     background-color: #316099;
 }
 
@@ -59,20 +61,13 @@ a {
     background-color: #FFFFFF;
 }
 
-.contacts {
-    position: absolute;
-    left: 1076.16px;
-    right: 0;
-    top: 0;
-
-}
-
-.text-info {
-    position: absolute;
+.box_block_first {
+    display: flex;
+    justify-content: space-between;
+    padding: 73px 113px;
 }
 
 .big_text {
-    position: absolute;
     width: 504px;
     height: 148px;
     left: 113px;
@@ -87,11 +82,9 @@ a {
 }
 
 .small_text {
-    position: absolute;
+    margin-top: 32px;
     width: 425px;
     height: 82px;
-    left: 114px;
-    top: 369px;
     font-family: MainFont sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -103,11 +96,9 @@ a {
 }
 
 .button {
-    position: absolute;
+    margin-top: 71px;
     width: 220px;
     height: 56px;
-    left: 114px;
-    top: 522px;
     background: #5A98D0;
     box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
     border-radius: 10px;
@@ -118,30 +109,27 @@ a {
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.04em;
-
     color: #FFFFFF;
 }
 
 .illustration {
-    position: absolute;
+
     width: 553.68px;
     height: 481.39px;
     left: 699px;
     top: 193px;
 }
 
-.block_two{
-    position: absolute;
-    width: 1140px;
+.block_two {
+    width: 100%;
     height: 585.13px;
-    left: 113px;
-    top: 832px;
+    margin-top: 64px;
     display: flex;
-
+    flex-direction: column;
 }
 
-.name-navigation{
-    width: 1137px;
+.name-block {
+    width: 100%;
     height: 41px;
     font-family: MainFont sans-serif;
     font-style: normal;
@@ -150,6 +138,214 @@ a {
     line-height: 46px;
     text-align: center;
     letter-spacing: 0.05em;
-
     color: #000000;
+    display: flex;
+    justify-content: center;
+}
+
+.group_restangles {
+    display: flex;
+    margin-top: 64px;
+    padding: 0 113px;
+}
+
+.restangle {
+    width: 359px;
+    height: 480.13px;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    margin-right: 32px;
+}
+
+.pic_1 {
+    padding: 44px 70px;
+}
+
+.pic_2 {
+    padding: 44px 116px;
+}
+
+.pic_3 {
+    padding: 44px 94.47px;
+}
+
+.big_text_restangle {
+    width: 283px;
+    height: 55px;
+    font-family: MainFont sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    margin-left: 32px;
+}
+
+.small_text_restangle {
+    width: 268.31px;
+    height: 94.2px;
+    font-family: MainFont sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+    margin-left: 32px;
+    margin-top: 14px;
+}
+
+.route {
+    margin-left: 32px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.text_rout {
+    width: 78px;
+    height: 27px;
+    font-family: MainFont sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+}
+
+.arrow {
+    margin-left: 44.13px;
+}
+
+.block_tree {
+    padding: 63.87px 113px;
+
+}
+
+.name-finish_project {
+    width: 1140px;
+    height: 46px;
+    font-family: MainFont;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.text-finish_project {
+    width: 100%;
+    height: 52px;
+    font-family: MainFont;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #222222;
+    margin-top: 32px;
+}
+
+.block_four {
+    width: 100%;
+    height: 480px;
+    margin-left: 113px;
+    margin-right: 113px;
+    position: relative;
+}
+
+.fond {
+    position: absolute;
+    margin-top: -480px;
+}
+
+.name-block_four {
+    position: absolute;
+    width: 398px;
+    height: 112px;
+    font-family: MainFont;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: -480px;
+    margin-left: 614px;
+    padding: 64px;
+}
+
+.name-block_four {
+    z-index: 100;
+}
+
+.room {
+    z-index: 1;
+}
+
+.fond {
+    z-index: 1;
+}
+
+.block_five {
+    width: 554px;
+    height: 417px;
+    display: flex;
+    padding: 32px 113px;
+    position: relative;
+}
+
+.images {
+    margin-left: 32px;
+}
+
+.fond-for-images {
+    width: 554px;
+    margin-top: -417px;
+    position: absolute;
+    opacity: 70%;
+    border-radius: 10px;
+}
+
+.name-block_photo {
+    position: absolute;
+    width: 183px;
+    height: 46px;
+    font-family: MainFont sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding: 32px;
+}
+
+.name-block_car {
+    position: absolute;
+    width: 258px;
+    height: 46px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: -385px;
+    margin-left: 32px;
+}
+
+.block_six {
+    width: 100%;
+    height: 657px;
+    background: #316099;
 }
