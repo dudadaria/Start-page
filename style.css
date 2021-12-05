@@ -229,7 +229,7 @@ a {
 .name-finish_project {
     width: 1140px;
     height: 46px;
-    font-family: MainFont;
+    font-family: MainFont sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 36px;
@@ -242,7 +242,7 @@ a {
 .text-finish_project {
     width: 100%;
     height: 52px;
-    font-family: MainFont;
+    font-family: MainFont sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -270,7 +270,7 @@ a {
     position: absolute;
     width: 398px;
     height: 112px;
-    font-family: MainFont;
+    font-family: MainFont sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 32px;
@@ -403,7 +403,7 @@ a {
 
 .line {
     width: 1366px;
-    height: 0px;
+    height: 0;
     opacity: 0.4;
     border: 1px solid #FFFFFF;
 }
@@ -448,7 +448,7 @@ a {
 .copyright {
     width: 309.77px;
     height: 26px;
-    font-family: Roboto;
+    font-family: MainFont sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -457,4 +457,36 @@ a {
     color: #FFFFFF;
     opacity: 0.4;
     margin-top: 64px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 768px;
+        display: flex;
+    }
+
+    .block_first {
+        height: 768px;
+        display: flex;
+
+    }
+
+    .header {
+        padding: 32px;
+    }
+
+    .box_block_first {
+        padding: 82px 32px;
+        z-index: 1;
+    }
+
+
+    .illustration {
+        width: 393px;
+        height: 333px;
+        margin-left: -382px;
+        margin-top: 178px;
+    }
+
+
 }
