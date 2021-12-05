@@ -291,9 +291,6 @@ a {
     z-index: 1;
 }
 
-.fond {
-    z-index: 1;
-}
 
 .block_five {
     width: 554px;
@@ -462,7 +459,9 @@ a {
 @media screen and (max-width: 768px) {
     .container {
         width: 768px;
+        height: 100vh;
         display: flex;
+
     }
 
     .block_first {
@@ -486,6 +485,54 @@ a {
         height: 333px;
         margin-left: -382px;
         margin-top: 178px;
+    }
+
+    .block_two {
+        width: 768px;
+        height: 150vh;
+    }
+
+    .name-block {
+        width: 704px;
+        height: 90px;
+        padding: 0 32px;
+    }
+
+    .group_rectangles {
+        padding: 0 216px;
+        flex-wrap: wrap;
+    }
+
+    .rectangle {
+        width: 335px;
+        height: 448px;
+        margin-top: 32px;
+    }
+
+    .block_tree {
+        width: 704px;
+        display: flex;
+        flex-direction: column;
+        padding: 0 32px;
+        margin-top: 127px;
+
+    }
+
+    .name-finish_project {
+        width: 768px;
+    }
+
+    .block_four {
+        display: flex;
+        height: 297px;
+        width: 704px;
+        margin-left: 32px;
+        margin-right: 32px;
+        margin-top: 64px;
+    }
+
+    .room {
+        height: 296px;
     }
 
 
