@@ -113,11 +113,8 @@ a {
 }
 
 .illustration {
-
     width: 553.68px;
     height: 481.39px;
-    left: 699px;
-    top: 193px;
 }
 
 .block_two {
@@ -304,14 +301,6 @@ a {
     margin-left: 32px;
 }
 
-.fond-for-images {
-    width: 554px;
-    margin-top: -417px;
-    position: absolute;
-    opacity: 70%;
-    border-radius: 10px;
-}
-
 .name-block_photo {
     position: absolute;
     width: 183px;
@@ -458,7 +447,6 @@ a {
 
 @media screen and (max-width: 768px) {
     .container {
-        width: 768px;
         height: 100vh;
         display: flex;
     }
@@ -471,10 +459,12 @@ a {
 
     .header {
         padding: 32px;
+        width: 704px;
     }
 
     .box_block_first {
         padding: 82px 32px;
+        justify-content: left;
         z-index: 1;
     }
 
@@ -482,12 +472,12 @@ a {
     .illustration {
         width: 393px;
         height: 333px;
-        margin-left: -382px;
         margin-top: 178px;
+        margin-left: -169px;
     }
 
     .block_two {
-        width: 768px;
+
         height: 150vh;
     }
 
@@ -499,6 +489,7 @@ a {
 
     .group_rectangles {
         padding: 0 216px;
+        flex-direction: column;
         flex-wrap: wrap;
     }
 
@@ -509,7 +500,6 @@ a {
     }
 
     .block_tree {
-        width: 704px;
         display: flex;
         flex-direction: column;
         padding: 0 32px;
@@ -518,13 +508,20 @@ a {
     }
 
     .name-finish_project {
-        width: 768px;
+        width: 704px;
+
+    }
+
+    .text-finish_project {
+        width: 519px;
+        height: 78px;
+        margin: 0 124px;
     }
 
     .block_four {
         display: flex;
         height: 297px;
-        width: 704px;
+
         margin-left: 32px;
         margin-right: 32px;
         margin-top: 64px;
@@ -532,11 +529,60 @@ a {
 
     .room {
         height: 296px;
+
+
     }
 
-    .img-size{
+    .img-size {
         height: 297px;
         width: 704px;
+    }
+
+
+    .block_five {
+        padding: 32px;
+
+    }
+
+    .img-size-block-five {
+        width: 336px;
+        height: 253px;
+
+    }
+
+    .small_text_footer {
+        width: 336px;
+        height: 96px;
+    }
+
+    .info {
+        height: 274px;
+        margin-top: 47px;
+        margin-left: 124px;
+        justify-content: unset;
+    }
+
+    .butt_talk {
+        height: 32px;
+        width: 133px;
+
+    }
+
+    .contacts {
+        margin: 64px 124px;
+    }
+
+    .menu_contacts {
+        flex-direction: column;
+
+    }
+
+    .line_contacts {
+        display: flex;
+    }
+
+    .address {
+        width: 455px;
     }
 
 }
