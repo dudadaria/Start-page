@@ -1,0 +1,25 @@
+.top {
+    height: 632px;
+}
+.top__block {
+    margin: 30px 113px;
+}
+
+.menu {
+    height: 38px;
+}
+
+.content {
+    margin: 0 100px;
+}
+.notification {
+    width: 500px;
+    height: 480px;
+
+}
+.top-image {
+}
+.btn-wrapper {
+    max-width: max-content;
+    text-align: left;
+}

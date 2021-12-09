@@ -601,22 +601,3 @@ a {
         width: 455px;
     }
 }
-
-/*@media screen and (max-width: 376px) {
-    .container {
-        height: 100vh;
-        display: flex;
-    }
-
-    .block_first {
-        height: 376px;
-        display: flex;
-
-    }
-
-    .header {
-        padding: 16px;
-        width: 345px;
-    }
-
-}
