@@ -1,0 +1,41 @@
+.top {
+    height: 768px;
+    background-color: #ddfcfc;
+
+}
+
+.menu {
+    height: 38px;
+    justify-content: space-between;
+    margin: 42px 113px;
+}
+
+.bg-im-contact {
+    background-image: url("./img/contacts.svg");
+    height: 38px;
+}
+
+.form-switch .form-check-input{
+    height: 38px;
+    width: 60px;
+}
+
+.form-check-input:checked {
+    background-color: #3a5384;
+    border-color: #3a5384;
+}
+
+.btn-primary,
+.btn-primary.active{
+     background: #5A98D0;
+}
+
+.text-block{
+    width: 450px;
+    margin: 42px 113px;
+}
+
+.illust{
+    width: 440px;
+   margin-right: 113px;
+}
